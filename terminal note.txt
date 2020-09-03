@@ -1,0 +1,92 @@
+~ = represent the current user home folder 
+cd - change directory 
+
+ls = list items in directory
+
+On windows, it is not case sensitive (but stick to lower case I'd advise, opposed to
+Not caring)
+
+clear - command to clear the Git Bash 
+
+cd .. - command to return to home folder
+
+cd (and where you want to go) i.e. - cd- onedrive 
+
+.. = parents folder of folder (with cd though) cd .. 
+
+Argument is additional information a command needs to work
+
+ls does not need an arguement, but it can take an argument, -l  for example tells you
+that you want it in a list format
+
+/ = root file folder of the system
+
+ctrl c = killing any current command
+
+to use git commit you need to add a string title for it
+
+added and changed are the same thing in the post commit machine speal, 
+
+commit often because it gives you more precise places to go back in time to 
+
+git add - A = this will add everything in repository, opposed to just add . A which 
+will miss sub folders. 
+
+
+
+nano - gets you into text editor thing, hold control + indicated letter to exit or follow other commands
+
+if you can change font in a program, it is not plain text, you're in a word editor
+or rich text, not the place to write code
+
+Generally do not use slash ^ be very careful. It can represent a different location 
+and what you think 
+
+Abosolute and relative file paths
+
+Absolute file paths always start with a slash
+It says they should start from the very first file in the drive
+
+95% of the time in this class we won't use /
+
+A relative on the other hand will look in the relative file 
+
+Multiple words = multiple arguments, so you must use quotation marks to unify the argument on cd 
+
+~  = home folder directory
+mkdir+name = create a folder
+nano = access to txt file
+
+git init = initialize 
+
+^ you got to be careful where you run this command as this command will convert the current folder into 
+a repository 
+Don't run it in docs, you don't want a repository in another repository 
+
+(Master)
+says you are in a repository ls
+
+ls -a 
+Do not use willy nily can cause data loss
+Do not mess with it. It can break repository and destroy backup. Do not use git as a backup tool
+just because it has history 
+.. - Parent rolder (A special folder in every folder in existence. It is just normally hidden from you.) 
+Documents would be the folder in the case of example_repository folder
+.= Folder itself - If you were the folder, you would be looking in the mirror
+
+I SHOULD HAVE BACKUPS FOR THIS CLASS
+
+COMMANDS TO CREATE SAVE OF THE PROJECT 
+
+create a comit of the project 
+
+git init - puts a file in a folder into an invisivle git respository, only has to be used once. 
+If you use git init in an existing repository it will delete and replace the old one 
+
+
+
+
+ADD DISTINCTIVE NAMES TO COMMITS TO BETTER KEEP TRACK OF THEM
+
+FUTURE FILES WILL BE SHARED IN GIT VIA SOMETHING CALLED - PUSHING AND PULLING
+RATHER THAN THEM BEING EMAILED 
